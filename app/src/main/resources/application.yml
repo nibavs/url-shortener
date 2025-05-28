@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: url-shortener
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: your_database_name
+      username: root
+      password: pass
+      authentication-database: admin
+server:
+  port: 8080
